@@ -1,0 +1,112 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(pmbg.png);
+    background-position: center;
+    background-size: cover;
+}
+
+body h1 {
+    text-align: center;
+    color: #df0000;
+}
+
+.pokemon-container {
+   display: flex;
+   gap: 15px 15px;
+   flex-wrap: wrap;
+
+}
+
+.card {
+    border: 3px solid #ccc;
+    border-radius: 50px;
+    width: 150px;
+    height: 250px;
+    box-shadow: 0px 0px 10px yellow,
+    0px 0px 10px yellow inset;
+    background-image: url(cardbackground.png);
+    background-position: center;
+    filter:grayscale(100%)
+}
+
+.card:hover {
+    box-shadow: 0px 0px 30px yellow,
+    0px 0px 60px yellow inset;
+    transition: 0.1s ease-in-out;
+    background-color: transparent;
+    transform: scale(1.1);
+    filter:grayscale(0%)
+}
+
+.card img {
+    width: 100%;
+    padding: 20px;
+}
+
+.card ul {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+
+.pokemon-id {
+    font-size: 15px;
+    color: white;
+}
+.pokemon-name {
+    color: rgb(73, 146, 82);
+    font-weight: bold;
+}
+
+.grass {
+    background-color: green;
+}
+
+.poison {
+    background-color: rgb(143, 12, 218);
+}
+
+.electric {
+    background-color: rgb(209, 238, 20);
+}
+
+.fire {
+    background-color: rgb(236, 25, 25);
+}
+.bug {
+    background-color: rgb(237, 134, 0);
+}
+
+.steel {
+    background-color: rgb(147, 167, 170);
+}
+
+.rock {
+    background-color: rgb(213, 126, 63);
+}
+
+.water {
+    background-color: rgb(73, 73, 255);
+}
+
+.ground {
+    background-color: brown;
+}
+
+.dark {
+    color: gray;
+    background-color: black;    
+}
+
+.dragon {
+    background-color: rgb(51, 51, 170);
+}
+
+.Normal {
+    background-color: gray;
+}
